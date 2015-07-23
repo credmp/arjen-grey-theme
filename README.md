@@ -3,6 +3,8 @@
 This is the arjen-grey theme. It is based on the
 [space grey theme for xcode](https://github.com/zdne/spacegray-xcode).
 
+![screenshot](screenshot.png)
+
 ## Installation
 
 Currently, take the file and `M-x eval-buffer` it for the immediate
