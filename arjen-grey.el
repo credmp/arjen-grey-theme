@@ -26,31 +26,46 @@
 ;;; Code:
 
 (deftheme arjen-grey "A soothing dark grey theme by Arjen")
-  (custom-theme-set-faces 'arjen-grey
-   '(default ((t (:foreground "#bdc3ce" :background "#2a2f38" ))))
-   '(cursor ((t (:background "#e1cb8c" ))))
-   '(fringe ((t (:background "#2b303a" ))))
-   '(mode-line ((t (:foreground "#bdc3ce" :background "#242a34" ))))
-   '(region ((t (:background "#3c4449" ))))
-   '(secondary-selection ((t (:background "#464a4d" ))))
-   '(font-lock-builtin-face ((t (:foreground "#eacc8c" ))))
-   '(font-lock-comment-face ((t (:foreground "#63747c" ))))
-   '(font-lock-function-name-face ((t (:foreground "#909fab" ))))
-   '(font-lock-keyword-face ((t (:foreground "#b894b0" ))))
-   '(font-lock-string-face ((t (:foreground "#a8c194" ))))
-   '(font-lock-type-face ((t (:foreground "#a0a5a0" ))))
-   '(font-lock-constant-face ((t (:foreground "#8b9db0" ))))
-   '(font-lock-variable-name-face ((t (:foreground "#8294ac" ))))
-   '(minibuffer-prompt ((t (:foreground "#a8c194" :bold t ))))
-   '(font-lock-warning-face ((t (:foreground "red" :bold t ))))
-   )
+
+(custom-theme-set-faces
+ 'arjen-grey
+ ;; Built in faces
+ '(default ((t (:foreground  "#bdc3ce" :background "#2a2f38" ))))
+ '(cursor ((t (:background "#e1cb8c" ))))
+ '(fringe ((t (:background "#2b303a" ))))
+ '(mode-line ((t (:foreground "#bdc3ce" :background "#242a34" ))))
+ '(region ((t (:background "#3c4449" ))))
+ '(secondary-selection ((t (:background "#464a4d" ))))
+ '(font-lock-builtin-face ((t (:foreground "#eacc8c" ))))
+ '(font-lock-comment-face ((t (:foreground "#63747c" ))))
+ '(font-lock-function-name-face ((t (:foreground "#909fab" ))))
+ '(font-lock-keyword-face ((t (:foreground "#b894b0" ))))
+ '(font-lock-string-face ((t (:foreground "#a8c194" ))))
+ '(font-lock-type-face ((t (:foreground "#a0a5a0" ))))
+ '(font-lock-constant-face ((t (:foreground "#8b9db0" ))))
+ '(font-lock-variable-name-face ((t (:foreground "#8294ac" ))))
+ '(minibuffer-prompt ((t (:foreground "#a8c194" :bold t ))))
+ '(font-lock-warning-face ((t (:foreground "red" :bold t ))))
+ ;; Helm faces
+ '(helm-header ((t (:foreground  "#bdc3ce"
+				:background "#2a2f38"
+				:underline nil
+				:box nil))))
+ '(helm-source-header ((t (:foreground  "#bdc3ce"
+				       :background "#2a2f38"
+				       :underline nil
+				       :weight bold
+				       :box (:line-width -1 :style released-button)))))
+ '(helm-selection ((t (:background "#2a2f38" :underline nil))))
+ '(helm-selection-line ((t (:background "#2a2f38"))))
+ )
 
 ;;;###autoload
 (and load-file-name
-    (boundp 'custom-theme-load-path)
-    (add-to-list 'custom-theme-load-path
-                 (file-name-as-directory
-                  (file-name-directory load-file-name))))
+     (boundp 'custom-theme-load-path)
+     (add-to-list 'custom-theme-load-path
+                  (file-name-as-directory
+                   (file-name-directory load-file-name))))
 ;; Automatically add this theme to the load path
 
 (provide-theme 'arjen-grey)
