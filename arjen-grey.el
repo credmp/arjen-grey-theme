@@ -1,10 +1,10 @@
-;;; arjen-grey-theme.el --- arjen-grey-theme         -*- lexical-binding: t; -*-
-
+;;; arjen-grey.el --- Grey theme for GNU Emacs
 ;; Copyright (C) 2015  Arjen Wiersma
 
 ;; Author: Arjen Wiersma <arjen@wiersma.org>
+;; Url: https://github.com/credmp/arjen-grey
 ;; Keywords: faces
-;; Version: 20150722
+;; Version: 20150725
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
@@ -69,4 +69,5 @@
 ;; Automatically add this theme to the load path
 
 (provide-theme 'arjen-grey)
-;;; arjen-grey-theme.el ends here
+
+;;; arjen-grey.el ends here
