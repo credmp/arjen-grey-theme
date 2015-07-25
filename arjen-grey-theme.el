@@ -1,4 +1,4 @@
-;;; arjen-grey.el --- Grey theme for GNU Emacs
+;;; arjen-grey-theme.el --- Grey theme for GNU Emacs
 ;; Copyright (C) 2015  Arjen Wiersma
 
 ;; Author: Arjen Wiersma <arjen@wiersma.org>
@@ -70,4 +70,4 @@
 
 (provide-theme 'arjen-grey)
 
-;;; arjen-grey.el ends here
+;;; arjen-grey-theme.el ends here
