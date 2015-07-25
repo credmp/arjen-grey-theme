@@ -19,6 +19,11 @@ In your init.el you can then load it using:
 (load-theme 'arjen-grey t)
 ```
 
+Currently this project is not part of the melpa archive. It will be
+added once the
+[pull request](https://github.com/milkypostman/melpa/pull/2960) has
+been handled.
+
 ## Status
 
 This is currently a work in progress. The colors have been added using
