@@ -4,7 +4,7 @@
 ;; Author: Arjen Wiersma <arjen@wiersma.org>
 ;; Url: https://github.com/credmp/arjen-grey
 ;; Keywords: faces
-;; Version: 20150725
+;; Version: 20150726
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
