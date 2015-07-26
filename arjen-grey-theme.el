@@ -48,16 +48,24 @@
  '(font-lock-warning-face ((t (:foreground "red" :bold t ))))
  ;; Helm faces
  '(helm-header ((t (:foreground  "#bdc3ce"
-				:background "#2a2f38"
-				:underline nil
-				:box nil))))
+                    :background "#2a2f38"
+                    :underline nil
+                    :box nil))))
  '(helm-source-header ((t (:foreground  "#bdc3ce"
-				       :background "#2a2f38"
-				       :underline nil
-				       :weight bold
-				       :box (:line-width -1 :style released-button)))))
- '(helm-selection ((t (:background "#2a2f38" :underline nil))))
+                           :background "#2a2f38"
+                           :underline nil
+                           :weight bold
+                           :box (:line-width -1 :style released-button)))))
+ '(helm-ff-directory ((t (:foreground  "#bdc3ce"
+                          :background "#2a2f38"
+                          :underline nil
+                          :weight bold
+                          ))))
+ '(helm-selection ((t (:background "#3c4449" :underline nil))))
  '(helm-selection-line ((t (:background "#2a2f38"))))
+ ;; Perspective faces
+ '(persp-selected-face ((t (:foreground  "#eacc8c"
+                          ))))
  )
 
 ;;;###autoload
