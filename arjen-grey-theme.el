@@ -27,6 +27,7 @@
 
 (deftheme arjen-grey "A soothing dark grey theme by Arjen")
 
+;; Use http://huecode.com to find some great colors!
 (custom-theme-set-faces
  'arjen-grey
  ;; Built in faces

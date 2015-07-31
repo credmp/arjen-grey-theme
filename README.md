@@ -1,3 +1,5 @@
+[![MELPA](http://melpa.org/packages/arjen-grey-theme-badge.svg)](http://melpa.org/#/arjen-grey-theme)
+
 ## About
 
 This is the arjen-grey theme. It is based on the
