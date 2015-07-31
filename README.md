@@ -9,11 +9,15 @@ This is the arjen-grey theme. It is based on the
 
 ## Installation
 
-Currently, take the file and `M-x eval-buffer` it for the immediate
-effect. If you want to install it somewhat permenantly you can do the
-following:
+This package is part of the [melpa](http://melpa.org) archive. This
+means you can run `M-x package-install RET arjen-grey-theme RET` and
+the latest package will be installed.
 
-`M-x package-install-file RET /path/to/checkout/arjen-grey.el`
+If you are doing development on this package you will want to take the
+file and `M-x eval-buffer` it for the immediate effect. If you want to
+install it somewhat permenantly you can do the following:
+
+`M-x package-install-file RET /path/to/checkout/arjen-grey.el RET`
 
 In your init.el you can then load it using:
 
@@ -21,21 +25,14 @@ In your init.el you can then load it using:
 (load-theme 'arjen-grey t)
 ```
 
-Currently this project is not part of the melpa archive. It will be
-added once the
-[pull request](https://github.com/milkypostman/melpa/pull/2960) has
-been handled.
-
 ## Status
 
-This is currently a work in progress. The colors have been added using
-the
-[emacs theme editor](https://github.com/emacsfodder/emacs-theme-editor).
+This theme is currently very usable. I have been using it as my
+default theme since I started building it.
 
-What needs to be fixed before it is usable:
-
-    - Helm coloring
-    - Lisp coloring 
+The base theme was built using the 
+[emacs theme editor](https://github.com/emacsfodder/emacs-theme-editor). I
+used [hue code](http://huecode.com) to find some kick ass colors.
 
 Happy coding!
 
