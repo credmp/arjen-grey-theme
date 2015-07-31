@@ -4,7 +4,7 @@
 ;; Author: Arjen Wiersma <arjen@wiersma.org>
 ;; Url: https://github.com/credmp/arjen-grey
 ;; Keywords: faces
-;; Version: 20150726
+;; Version: 20150731
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
@@ -64,9 +64,13 @@
  '(helm-selection ((t (:background "#3c4449" :underline nil))))
  '(helm-selection-line ((t (:background "#2a2f38"))))
  ;; Perspective faces
- '(persp-selected-face ((t (:foreground  "#eacc8c"
-                          ))))
+ '(persp-selected-face ((t (:foreground  "#eacc8c"))))
  )
+
+(custom-theme-set-variables
+  'arjen-grey
+  '(hl-paren-colors '("#B9F" "#B8D" "#B7B" "#B69"
+                      "#B57" "#B45" "#B33" "#B11")))
 
 ;;;###autoload
 (and load-file-name
