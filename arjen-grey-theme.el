@@ -66,6 +66,15 @@
  '(helm-selection-line ((t (:background "#2a2f38"))))
  ;; Perspective faces
  '(persp-selected-face ((t (:foreground  "#eacc8c"))))
+ '(company-tooltip ((t (:foreground "#bdc3ce" :background "#242a34"))))
+ '(company-tooltip-annotation ((t (:foreground "#eacc8c"))))
+ '(company-tooltip-selection ((t (:background "#464a4d"))))
+ '(company-tooltip-mouse ((t (:background "#464a4d"))))
+ '(company-tooltip-common ((t (:foreground "#909fab"))))
+ '(company-scrollbar-fg ((t (:background "#464a4d"))))
+ '(company-scrollbar-bg ((t (:background "#242a34"))))
+ '(company-preview ((t (:foreground "#bdc3ce" :background "#242a34"))))
+ '(company-preview-common ((t (:foreground "#909fab"))))
  )
 
 (custom-theme-set-variables
