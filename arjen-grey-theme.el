@@ -66,6 +66,7 @@
  '(helm-selection-line ((t (:background "#2a2f38"))))
  ;; Perspective faces
  '(persp-selected-face ((t (:foreground  "#eacc8c"))))
+ ;; Company mode
  '(company-tooltip ((t (:foreground "#bdc3ce" :background "#242a34"))))
  '(company-tooltip-annotation ((t (:foreground "#eacc8c"))))
  '(company-tooltip-selection ((t (:background "#464a4d"))))
@@ -75,6 +76,12 @@
  '(company-scrollbar-bg ((t (:background "#242a34"))))
  '(company-preview ((t (:foreground "#bdc3ce" :background "#242a34"))))
  '(company-preview-common ((t (:foreground "#909fab"))))
+ ;; Gnus
+ '(gnus-header-name ((t (:foreground "#909fab" ))))
+ '(gnus-header-content ((t (:foreground "#bdc3ce" ))))
+ '(gnus-header-subject ((t (:foreground "#eacc8c" ))))
+ '(widget-button ((t (:foreground "#909fab" ))))
+ '(gnus-summary-normal-read ((t (:foreground "#909fab"))))
  )
 
 (custom-theme-set-variables
