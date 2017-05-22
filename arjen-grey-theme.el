@@ -2,6 +2,7 @@
 ;; Copyright (C) 2015  Arjen Wiersma
 
 ;; Author: Arjen Wiersma <arjen@wiersma.org>
+;; Maintainer: Arjen Wiersma <arjen@wiersma.org>
 ;; Url: https://github.com/credmp/arjen-grey
 ;; Keywords: faces
 ;; Version: 20150731
