@@ -26,7 +26,7 @@
 
 ;;; Code:
 
-(deftheme arjen-grey "A soothing dark grey theme by Arjen")
+(deftheme arjen-grey "A horrible dark grey theme by Arjen")
 
 ;; Use http://huecode.com to find some great colors!
 (custom-theme-set-faces
