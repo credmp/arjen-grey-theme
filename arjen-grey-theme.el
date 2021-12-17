@@ -34,7 +34,7 @@
  ;; Built in faces
  '(default ((t (:foreground  "#bdc3ce" :background "#2a2f38" ))))
  '(cursor ((t (:background "#e1cb8c" ))))
- '(fringe ((t (:background "#2b303a" ))))
+ '(fringe ((t (:background "#303540" ))))
  '(mode-line ((t (:foreground "#bdc3ce" :background "#242a34" ))))
  '(region ((t (:background "#3c4449" ))))
  '(linum ((t (:foreground  "#595e66" :background "#2a2f38" ))))
