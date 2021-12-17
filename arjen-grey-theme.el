@@ -34,8 +34,10 @@
  ;; Built in faces
  '(default ((t (:foreground  "#bdc3ce" :background "#2a2f38" ))))
  '(cursor ((t (:background "#e1cb8c" ))))
- '(fringe ((t (:background "#2b303a" ))))
+ '(fringe ((t (:background "#303540" ))))
  '(mode-line ((t (:foreground "#bdc3ce" :background "#242a34" ))))
+ '(mode-line-inactive ((t (:foreground "#bdc3ce" :background "#444a54" ))))
+ '(mode-line-highlight ((t (:foreground "yellow" :weight bold))))
  '(region ((t (:background "#3c4449" ))))
  '(linum ((t (:foreground  "#595e66" :background "#2a2f38" ))))
  '(secondary-selection ((t (:background "#464a4d" ))))
@@ -90,6 +92,12 @@
   'arjen-grey
   '(hl-paren-colors '("#B9F" "#B8D" "#B7B" "#B69"
                       "#B57" "#B45" "#B33" "#B11")))
+
+(when (>= emacs-major-version 26)
+  (custom-theme-set-faces
+   'arjen-grey
+   `(line-number ((t (:inherit fringe))))
+   `(line-number-current-line ((t (:inherit fringe :foreground "yellow" :weight bold))))))
 
 ;;;###autoload
 (and load-file-name
