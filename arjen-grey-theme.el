@@ -93,6 +93,12 @@
   '(hl-paren-colors '("#B9F" "#B8D" "#B7B" "#B69"
                       "#B57" "#B45" "#B33" "#B11")))
 
+(when (>= emacs-major-version 26)
+  (custom-theme-set-faces
+   'arjen-grey
+   `(line-number ((t (:inherit fringe))))
+   `(line-number-current-line ((t (:inherit fringe :foreground "yellow" :weight bold))))))
+
 ;;;###autoload
 (and load-file-name
      (boundp 'custom-theme-load-path)
