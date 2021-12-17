@@ -36,6 +36,8 @@
  '(cursor ((t (:background "#e1cb8c" ))))
  '(fringe ((t (:background "#303540" ))))
  '(mode-line ((t (:foreground "#bdc3ce" :background "#242a34" ))))
+ '(mode-line-inactive ((t (:foreground "#bdc3ce" :background "#444a54" ))))
+ '(mode-line-highlight ((t (:foreground "yellow" :weight bold))))
  '(region ((t (:background "#3c4449" ))))
  '(linum ((t (:foreground  "#595e66" :background "#2a2f38" ))))
  '(secondary-selection ((t (:background "#464a4d" ))))
